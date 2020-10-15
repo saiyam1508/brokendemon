@@ -1,0 +1,354 @@
+body,html{
+margin: 0%;
+padding: 0%;
+height: 100%;
+}
+html{
+    font-size: 10px;
+    font-family: 'montserrat', sans-serif;
+}
+.home{
+    background-image: url(img/home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;  
+    width: fit-content; 
+    background-position: top center;
+    background-attachment: fixed;
+}
+
+body{
+    font-size: 20px;
+    font-family:"Lato", sans-serif;
+    font-weight:400;
+    line-height:1.8em;
+    color: white;
+}
+.home{
+ min-height: 100%;
+ width: 100%;
+ display: flex;
+ justify-content: center;   
+ align-items: center;
+}
+video{
+    margin-top: 32%;
+    height: 25%;
+    width: 30%;
+
+  }
+
+
+/*home section*/
+
+a{
+    text-decoration: none;
+    color: orange;
+}
+header .header{
+    min-height: 8vh;
+    background-color: black;
+}
+#header{
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0%;
+    width: 220vh;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: transparent;
+  }
+  
+  li {
+    float: right; 
+  }
+  
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;	;
+    font-weight: bold;
+  }
+  
+  li a:hover {
+    background-color: crimson;
+} 
+ul {
+    position: fixed;
+    top: 0;  
+    width: 100%;
+  }
+
+#contact .a{
+      float: center;
+  }
+
+  
+  .border{
+    position:absolute;
+    top:50%;
+    width:70%;
+    vertical-align:middle;
+    font-size:60px;
+    letter-spacing:8px;
+    text-transform:uppercase;
+
+}
+.border{
+border-color: white;
+padding: 25px;
+color: white;
+border-style: solid;
+border-width: 20px;
+font-family:Bradley Hand, cursive	;
+vertical-align: bottom;
+}
+/* stream section*/
+span.section-title{
+ border-color: white;
+padding: 30px;
+color: white;
+border-style: double;
+border-width: 10px;
+font-family:Comic Sans MS, Comic Sans, cursive	;
+vertical-align: bottom;   
+}
+#stream{
+    background-image: url(img/stream.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
+    min-height: 100%;
+}
+#stream .stream{
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0;
+    padding: 100px 0;
+}
+#stream .stream-header{
+    margin-bottom: 50px;
+}
+
+
+#stream .span{
+    color: crimson;
+}
+.stream{
+ min-height: 10vh;
+ width: 100%;
+ display: flex;
+ justify-content: center;   
+ align-items: center;
+}
+ .h1 .span{
+     color: crimson;
+     
+ }
+
+#stream .stream{
+    flex-direction: column;
+    margin: 0 auto;
+}
+#stream .stream{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+#stream .streams-items{
+    width: 100%;
+}
+#stream .streams-item{
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 18px 0 orange;
+    transition: .3s ease box-shadow;
+}
+#stream .streams-items{
+    width: 100%;
+}
+#stream .streams-item{
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 0 0 18px 0 black;
+}
+#stream .streams-item:hover{
+    box-shadow: 0px 0px 5px 0 orange;
+}
+#stream .icon{
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+/*buy section*/
+span.buy-title{
+    border-color: white;
+   padding: 30px;
+   color: white;
+   border-style: double;
+   border-width: 10px;
+   font-family:Comic Sans MS, Comic Sans, cursive;
+   vertical-align: bottom;   
+   }
+#buy .buy-header{
+ min-height: 40vh;
+ width: 100%;
+ display: flex;
+ justify-content: center;   
+ align-items: center;
+}
+#buy .buy{
+    flex-direction: column;
+    margin: 0 auto;
+}
+#buy .buy{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#buy .buy-item{
+    width: 100%;
+}
+#buy .buy-item{
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 15px 0 crimson;
+    transition: .3s ease box-shadow;
+}
+#buy .buy-item{
+    width: 100%;
+}
+ .buy-item:hover{
+    box-shadow: 0px 0px 5px 0 crimson;
+}
+#buy .icon{
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+#buy{
+    background-image: url(img/buy.jpg);
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;   
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+/*about*/
+.about{
+background-image: url(img/about.jpg);   
+position: relative;
+background-size: cover;
+background-repeat: no-repeat;   
+background-attachment: fixed;
+min-height: 100%; 
+color: white;
+}
+
+#about .col-right h1{
+color: white;
+text-align: center;
+}
+#about .col-right h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    margin-bottom: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    }
+ #about .col-left .img{
+    position: left; 
+    max-width: 50%;     
+    }
+    #about .col-left .img::after{
+    content: '';
+    position: absolute;
+    left: 220px;
+    top: 19px;
+    height: 98%;
+    width: 125%;
+    border: 7px solid crimson;
+    z-index: -1;
+    }
+   
+   #about .col-left .responsive {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+      }
+      p{
+        color: white;
+        font-size: 50;
+        margin-top: 5px;
+        line-height: 3.5rem;
+        font-weight: 400;
+         letter-spacing: .05rem;
+         text-align: center;
+    }
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+      
+
+    /*FOOTER SECTION*/
+    #footer .footer{
+        min-height: 100px;
+        flex-direction: column;
+        padding-top: 70px;
+        padding-bottom: 20px;
+        text-align: center;
+        background-image: url(img/stream.jpg);
+        background-size: cover;
+    }
+    .brand h1{
+        font-size: 3rem;
+        text-transform: uppercase;
+        color: white;
+        text-align: center;
+    }
+    .brand h1 span{
+        color:crimson;
+    }
+    
+    #footer .logo{
+        justify-content: right;
+        text-align: center;
+    }
+    
+
+    
